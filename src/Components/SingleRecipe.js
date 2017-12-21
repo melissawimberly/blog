@@ -8,9 +8,9 @@ class SingleRecipe extends React.Component {
 
     return (
       <div className="recipe-wrapper" key={`${title}-recipe`}>
-          <div className="recipe-title">{title}</div>
-          <div className="recipe-short-desc">{short_desc}</div>
-          <div className="recipe-long-desc">{long_desc}</div>
+        <div className="recipe-title">{title}</div>
+        <div className="recipe-short-desc">{short_desc}</div>
+        <div className="recipe-long-desc">{long_desc}</div>
       </div>
     )
   }
