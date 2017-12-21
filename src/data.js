@@ -10,6 +10,30 @@ const recipes = [
     title: 'White Bean Soup',
     short_desc: 'Autumnal Soup',
     long_desc: 'Great Soup'
+  },
+  {
+    name: 'pecan_granola',
+    title: 'Maple Pecan Granola',
+    short_desc: 'Great Granola',
+    long_desc: 'Granola for any occasion'
+  },
+  {
+    name: 'black_bean_burger',
+    title: 'Black Bean Burg',
+    short_desc: 'Summer Griller',
+    long_desc: 'Grill up these, and they are sure to delight'
+  },
+  {
+    name: 'sweet_potato_chips',
+    title: 'Sweet Potato Chips',
+    short_desc: 'Best Sweet Potato Chips',
+    long_desc: 'Pair these with the Black Bean Burger'
+  },
+  {
+    name: 'guacamole',
+    title: 'Original Guacamole',
+    short_desc: 'Guac It Out',
+    long_desc: 'This guac is so good, you could charge extra for it!'
   }
 ];
 
