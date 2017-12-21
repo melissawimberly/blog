@@ -1,9 +1,52 @@
 const recipes = [
   {
+    name: 'raspberry_chocolate_chip_cookies',
+    title: 'Raspberry Chocolate Chip Cookies',
+    short_desc: 'Best bloody poridge ever',
+    long_desc: 'My best thing ever!',
+    image_source: 'https://i0.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/12/17093523/d-e1513587728310.jpg?zoom=2&fit=1797%2C1797&ssl=1'
+  },
+  {
+    name: 'energy_balls_cacao_pb',
+    title: 'Cacao and Raspberry Peanut Butter Energy Balls',
+    short_desc: 'Best bloody poridge ever',
+    long_desc: 'My best thing ever!',
+    image_source: 'https://i2.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/12/08103531/c-e1512737447592.jpg?zoom=2&fit=1802%2C1802&ssl=1'
+  },
+  {
+    name: 'alexandras_spiced_roasted_squash_with_crispy_kale_wild_mushroom_and_tahini_dressing',
+    title: 'Alexandras Spiced Roasted Squash with Crispy Kale, Wild Mushrroms and Tahini Dressing',
+    short_desc: 'Best bloody poridge ever',
+    long_desc: 'My best thing ever!',
+    image_source: 'https://i2.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/11/21145721/e-4-e1511276414297.jpg?zoom=2&fit=1783%2C1783&ssl=1'
+  },
+  {
+    name: 'almond_pesto_sprouts',
+    title: 'Almond Pesto Sprouts',
+    short_desc: 'Best bloody poridge ever',
+    long_desc: 'My best thing ever!',
+    image_source: 'https://i2.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/11/16170023/c4-e1510936047143.jpg?zoom=2&fit=1802%2C1802&ssl=1'
+  },
+  {
+    name: 'roses_shredded_sprout_cranberry_and_vegan_bacon_salad',
+    title: 'Roses Shredded Sprout Cranberry and Vegan Bacon Salad',
+    short_desc: 'Best bloody poridge ever',
+    long_desc: 'My best thing ever!',
+    image_source: 'https://i1.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/11/16125818/g-e1510938503222.jpg?zoom=2&fit=1800%2C1800&ssl=1'
+  },
+  {
+    name: 'smoky_vegan_bacon',
+    title: 'Smoky Vegan Bacon!',
+    short_desc: 'Best bloody poridge ever',
+    long_desc: 'My best thing ever!',
+    image_source: 'https://i0.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/11/16125337/a3-2-e1510936253570.jpg?zoom=2&fit=1788%2C1788&ssl=1'
+  },
+  {
     name: 'poridge',
     title: 'Pear Porridge',
     short_desc: 'Best bloody poridge ever',
-    long_desc: 'My best thing ever!'
+    long_desc: 'My best thing ever!',
+    image_source: 'https://i0.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/12/17093523/d-e1513587728310.jpg?zoom=2&fit=1797%2C1797&ssl=1'
   },
   {
     name: 'soup',
@@ -40,21 +83,21 @@ const recipes = [
 const shopping = [
   {
     name: 'energy_balls_shop',
-    img: 'energyballs',
+    image_source: 'https://i2.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/06/13105905/43A5299.jpg?fit=1400%2C584&ssl=1',
     title: 'Shop Our Energy Balls',
     desc: 'Our Energy Balls are a delicious on-the-go snack, made from simple, natural ingredients.',
     button_text: 'Shop our range!'
   },
   {
     name: 'delis',
-    img: 'delis',
+    image_source: 'https://i0.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/06/13105913/DeliciouslyElla-Website-banner-R1-2.jpg?fit=1400%2C584&ssl=1',
     title: 'Come see us at the delis',
     desc: 'Weve just launced a delicious new menu and cant wait to hear what you think!',
     button_text: 'Check out our menus!'
   },
   {
     name: 'energy_balls_recipe',
-    img: 'ballrecipe',
+    image_source: 'https://i0.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/06/13105919/DELICIOUSLY_ELLA_ENERGY_BALLS_49.jpg?fit=1400%2C584&ssl=1',
     title: 'Try making our energy balls at home',
     desc: 'Our Energy Balls could not be easier to make. Click below for our recipes.',
     button_text: 'Recipes'
