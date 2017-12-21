@@ -4,6 +4,7 @@ body {
   font-family: sans-serif;
 }
 
+
 /* UserNav Styling */
 .user-nav-list {
   display: flex;
@@ -24,6 +25,8 @@ body {
 .recipes-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 55px;
 }
 
 .more-action-buttons-wrapper {
@@ -42,7 +45,57 @@ body {
   margin: 10px 10px 20px;
 }
 
+.recipe-image-wrap {
+  width: 330px;
+  height: 335px;
+}
+
+.recipe-image {
+  width: 100%;
+}
+
+.recipe-title {
+  text-align: center;
+  color:#053B73;
+  font-family: "Naive line sans black",sans-serif;
+  text-transform: uppercase;
+}
+
 /* ShoppingManager Styling */
+.shopping-manager-wrapper {
+  width: 100%;
+  height: 385px;
+  margin-bottom: 55px;
+}
+
+.shopping-card {
+  position: relative;
+}
+
+.carousel-arrow-forward {
+  position: absolute;
+  right: 5px;
+  top: 45%;
+  z-index: 999;
+}
+
+.carousel-arrow-backward {
+  position: absolute;
+  left: 5px;
+  top: 45%;
+}
+
+.shopping-card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #003975;
+  border-color: #fff;
+  height: 325px;
+  z-index: 9;
+}
+
 
 /* Books Styling */
 
@@ -66,4 +119,8 @@ body {
 .action-button:hover {
   background-color: #053B73;
   color: #fff;
+}
+
+.clickable {
+  cursor: pointer;
 }
