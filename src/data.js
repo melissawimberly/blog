@@ -4,6 +4,9 @@ const recipes = [
     title: 'Raspberry Chocolate Chip Cookies',
     short_desc: 'Best bloody poridge ever',
     long_desc: 'My best thing ever!',
+    prep_time: '25M',
+    total_time: '25M',
+    difficulty_level: 'easy',
     image_source: 'https://i0.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/12/17093523/d-e1513587728310.jpg?zoom=2&fit=1797%2C1797&ssl=1'
   },
   {
@@ -11,6 +14,9 @@ const recipes = [
     title: 'Cacao and Raspberry Peanut Butter Energy Balls',
     short_desc: 'Best bloody poridge ever',
     long_desc: 'My best thing ever!',
+    prep_time: '25M',
+    total_time: '25M',
+    difficulty_level: 'easy',
     image_source: 'https://i2.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/12/08103531/c-e1512737447592.jpg?zoom=2&fit=1802%2C1802&ssl=1'
   },
   {
@@ -18,6 +24,9 @@ const recipes = [
     title: 'Alexandras Spiced Roasted Squash with Crispy Kale, Wild Mushrroms and Tahini Dressing',
     short_desc: 'Best bloody poridge ever',
     long_desc: 'My best thing ever!',
+    prep_time: '25M',
+    total_time: '25M',
+    difficulty_level: 'easy',
     image_source: 'https://i2.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/11/21145721/e-4-e1511276414297.jpg?zoom=2&fit=1783%2C1783&ssl=1'
   },
   {
@@ -25,6 +34,9 @@ const recipes = [
     title: 'Almond Pesto Sprouts',
     short_desc: 'Best bloody poridge ever',
     long_desc: 'My best thing ever!',
+    prep_time: '25M',
+    total_time: '25M',
+    difficulty_level: 'easy',
     image_source: 'https://i2.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/11/16170023/c4-e1510936047143.jpg?zoom=2&fit=1802%2C1802&ssl=1'
   },
   {
@@ -32,6 +44,9 @@ const recipes = [
     title: 'Roses Shredded Sprout Cranberry and Vegan Bacon Salad',
     short_desc: 'Best bloody poridge ever',
     long_desc: 'My best thing ever!',
+    prep_time: '25M',
+    total_time: '25M',
+    difficulty_level: 'easy',
     image_source: 'https://i1.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/11/16125818/g-e1510938503222.jpg?zoom=2&fit=1800%2C1800&ssl=1'
   },
   {
@@ -39,6 +54,9 @@ const recipes = [
     title: 'Smoky Vegan Bacon!',
     short_desc: 'Best bloody poridge ever',
     long_desc: 'My best thing ever!',
+    prep_time: '25M',
+    total_time: '25M',
+    difficulty_level: 'easy',
     image_source: 'https://i0.wp.com/s3-eu-west-1.amazonaws.com/mae-deli/wp-content/uploads/2017/11/16125337/a3-2-e1510936253570.jpg?zoom=2&fit=1788%2C1788&ssl=1'
   },
   {
