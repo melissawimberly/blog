@@ -13,10 +13,12 @@ class RecipesManager extends React.Component {
   render(){
     return (
       <div className="recipes-manager-wrapper">
-        { this.getRecipes() }
+        <div className="recipes-wrapper">
+          { this.getRecipes() }
+        </div>
         <div className="more-action-buttons-wrapper">
-          <button>Read More News</button>
-          <button>Read More Recipes</button>
+          <button className="action-button bold">Read More News</button>
+          <button className="action-button bold">Read More Recipes</button>
         </div>
       </div>
     )
