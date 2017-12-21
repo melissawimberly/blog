@@ -5,8 +5,8 @@ class UserNav extends React.Component {
     return (
       <div className="user-nav-wrapper">
         <ul className="user-nav-list">
-          <li>Account</li>
-          <li>Basket</li>
+          <li className="user-nav-list-item list-item-account clickable">Account</li>
+          <li className="user-nav-list-item list-item-basket clickable">Basket</li>
         </ul>
       </div>
     )
