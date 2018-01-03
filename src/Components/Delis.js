@@ -43,7 +43,7 @@ class Delis extends React.Component {
       height: '385px',
       zIndex: '1'
     };
-
+    
     return (
       <div className="deli-locations-wrapper">
         <div

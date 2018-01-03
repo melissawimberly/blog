@@ -6,7 +6,8 @@ class ShoppingManager extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeCardIndex: 0
+      activeCardIndex: 0,
+      carouselCardCount: 3
     }
   }
 
@@ -19,8 +20,8 @@ class ShoppingManager extends React.Component {
 
   getPreviousCard = () => {
     return(e) => {
-      let { activeCardIndex } = this.state;
-      this.setState({ activeCardIndex: (activeCardIndex - 1) })
+      let { activeCardIndex, carouselCardCount } = this.state;
+      this.setState({ activeCardIndex: !!activeCardIndex ? (activeCardIndex - 1) : (carouselCardCount - 1) })
     }
   };
 
@@ -33,17 +34,24 @@ class ShoppingManager extends React.Component {
       height: '385px',
       zIndex: '1'
     };
+    
     return (
       <div className="shopping-manager-wrapper">
         <div
-          className="shopping-card" key={`${activeCardIndex}-shopping-card`} onClick={this.getNextCard()} style={shoppingBoxStyle}>
-          <div className="carousel-arrow-forward"><span class="glyphicon glyphicon-chevron-right"></span></div>
+          className="shopping-card"
+          key={`${activeCardIndex}-shopping-card`}
+          style={shoppingBoxStyle}>
+          <div className="carousel-arrow-forward" onClick={this.getNextCard()}>
+            <span className="glyphicon glyphicon-chevron-right"></span>
+          </div>
           <div className="shopping-card-box">
             <h2 className="box-title">{shoppingCards[activeCardIndex].title}</h2>
             <p className="box-description">{shoppingCards[activeCardIndex].desc}</p>
             <button className="action-button">{shoppingCards[activeCardIndex].button_text}</button>
           </div>
-          <div className="carousel-arrow-backward"><span class="glyphicon glyphicon-chevron-left"></span></div>
+          <div className="carousel-arrow-backward" onClick={this.getPreviousCard()}>
+            <span className="glyphicon glyphicon-chevron-left"></span>
+          </div>
         </div>
       </div>
     )

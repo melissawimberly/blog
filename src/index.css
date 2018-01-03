@@ -85,16 +85,17 @@ body {
 }
 
 .recipe-image-wrap .hover-image-text-wrapper {
-  position: relative;
-  bottom: 105px;
-  left: 55px;
   visibility: hidden;
+  position: relative;
+  bottom: 125px;
+  left: 55px;
+  width: 200px;
+  padding-bottom: 1px;
+  text-align: center;
   border-top: 2px solid #053B73;
   border-right: 2px solid #053B73;
   border-left: 2px solid #053B73;
-  width: 200px;
-  text-align: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.65);
 }
 
 .recipe-image-wrap:hover .hover-image-text-wrapper {
@@ -121,19 +122,27 @@ body {
 
 .shopping-card {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-arrow-forward {
   position: absolute;
   right: 5px;
   top: 45%;
-  z-index: 999;
+  width: 50px;
+  height: 50px;
+  background: gainsboro;
 }
 
 .carousel-arrow-backward {
   position: absolute;
   left: 5px;
   top: 45%;
+  width: 50px;
+  height: 50px;
+  background: gainsboro;
 }
 
 .shopping-card-box {
@@ -141,17 +150,45 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: white;
   border-top: 3px solid #003975;
-  border-color: #fff;
-  height: 325px;
+  height: 225px;
   z-index: 9;
 }
 
+.box-description {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px 10px;
+}
 
-/* Books Styling */
 
 /* Delis Styling */
+.deli-manager-wrapper {
+  width: 100%;
+  height: 385px;
+  margin-bottom: 55px;
+}
 
+.deli-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deli-card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-top: 3px solid #003975;
+  height: 225px;
+  z-index: 9;
+}
+
+/* Books Styling */
 /* NewsletterBanner Styling */
 
 /* Footer Styling */
@@ -163,6 +200,7 @@ body {
   height: 52px;
   width: 215px;
   font-size: 16px;
+  cursor: pointer;
 }
 .action-button:first-child {
   margin-right: 15px;
