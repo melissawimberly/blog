@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 
 class NewsletterBanner extends React.Component {
