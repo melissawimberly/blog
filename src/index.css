@@ -129,31 +129,33 @@ body {
 
 .carousel-arrow-forward {
   position: absolute;
-  right: 5px;
+  right: 3.5%;
   top: 45%;
-  width: 50px;
-  height: 50px;
-  background: gainsboro;
+  width: 35px;
+  height: 55px;
+  background: rgba(242, 235, 225, 0.9);
 }
 
 .carousel-arrow-backward {
   position: absolute;
-  left: 5px;
+  left: 3.5%;
   top: 45%;
-  width: 50px;
-  height: 50px;
-  background: gainsboro;
+  width: 35px;
+  height: 55px;
+  background: rgba(242, 235, 225, 0.9);
 }
 
 .shopping-card-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  background: white;
-  border-top: 3px solid #003975;
   height: 225px;
-  z-index: 9;
+  width: 100%;
+  max-width: 370px;
+  padding: 35px 25px 25px 25px;
+  border-top: 5px solid #003975;
+  background: white;
 }
 
 .box-description {
@@ -162,34 +164,70 @@ body {
   padding: 0 20px 10px;
 }
 
+.box-title {
+  text-align: center;
+}
+
 
 /* Delis Styling */
-.deli-manager-wrapper {
-  width: 100%;
-  height: 385px;
-  margin-bottom: 55px;
+.deli-locations-wrapper {
+  margin: 55px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .deli-card {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 406px;
 }
 
-.deli-card-box {
+.deli-text-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: white;
   border-top: 3px solid #003975;
-  height: 225px;
-  z-index: 9;
 }
 
+.deli-title { }
+
+.deli-see-more-text {}
+
 /* Books Styling */
+.books-wrapper {
+  margin: 55px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-card {
+  display: flex;
+}
+
+.book-image {
+  width: 30%;
+}
+
+.book-copy {
+  width: 70%;
+}
+
 /* NewsletterBanner Styling */
+.newsletter-banner-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  bottom: 0;
+  background: #f2ebe1;
+  padding: 20px;
+  margin-top: 25px;
+  /* margin: 25px 0 75px; */
+}
 
 /* Footer Styling */
 
