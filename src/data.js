@@ -124,27 +124,18 @@ const shopping = [
 
 const locations = [
   {
-    name: 'kitchen_counter',
     title: 'The Kitchen Counter',
     img: 'kitchen_counter',
-    desc: 'The Kitchen Counter Locale',
-    button_text: 'The Kitchen Counter',
     link: 'www.blah.com'
   },
   {
-    name: 'weighhouse_st',
     title: 'Weighhouse Street',
     img: 'weighhouse_st',
-    desc: 'The Weighhouse Locale',
-    button_text: 'Weighhouse Street',
     link: 'www.blah.com'
   },
   {
-    name: 'seymour_place',
     title: 'Seymour Place',
     img: 'seymour_place',
-    desc: 'The Seymour Place Locale',
-    button_text: 'Seymour Place',
     link: 'www.blah.com'
   }
 ]
