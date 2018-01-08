@@ -6,9 +6,11 @@ class Books extends React.Component {
     return books.map((book, index) => {
       return (
         <div className="book-card" key={`${book.name}-${index}`}>
-          <div className="book-title">{book.title}</div>
-          <div>{ book.type === 'book' ? 'Order Your Copy Now' : 'Download The App' }</div>
-          <div>{ book.type === 'book' ? this.getBookButtons(book) : this.getAppButtons(book) }</div>
+          <div className="book-image"></div>
+          <div className="book-copy">
+            <h2>{ book.type === 'book' ? 'Order Your Copy Now' : 'Download The App' }</h2>
+            <div>{ book.type === 'book' ? this.getBookButtons(book) : this.getAppButtons(book) }</div>
+          </div>
         </div>
       )
     })
@@ -29,7 +31,6 @@ class Books extends React.Component {
   render() {
     return (
       <div className="books-wrapper">
-        <label>Books section</label>
         { this.getBooks() }
       </div>
     )
