@@ -34,14 +34,14 @@ class ShoppingManager extends React.Component {
       height: '385px',
       zIndex: '1'
     };
-    
+
     return (
       <div className="shopping-manager-wrapper">
         <div
           className="shopping-card"
           key={`${activeCardIndex}-shopping-card`}
           style={shoppingBoxStyle}>
-          <div className="carousel-arrow-forward" onClick={this.getNextCard()}>
+          <div className="carousel-arrow-forward clickable" onClick={this.getNextCard()}>
             <span className="glyphicon glyphicon-chevron-right"></span>
           </div>
           <div className="shopping-card-box">
@@ -49,7 +49,7 @@ class ShoppingManager extends React.Component {
             <p className="box-description">{shoppingCards[activeCardIndex].desc}</p>
             <button className="action-button">{shoppingCards[activeCardIndex].button_text}</button>
           </div>
-          <div className="carousel-arrow-backward" onClick={this.getPreviousCard()}>
+          <div className="carousel-arrow-backward clickable" onClick={this.getPreviousCard()}>
             <span className="glyphicon glyphicon-chevron-left"></span>
           </div>
         </div>
