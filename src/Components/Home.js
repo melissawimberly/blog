@@ -25,8 +25,8 @@ class Home extends React.Component  {
   render() {
     return(
       <div className="home-container-wrapper">
-        <UserNav />
-        <MainNav />
+        {/* <UserNav /> */}
+        {/* <MainNav /> */}
         <RecipesManager />
         <ShoppingManager />
         <Delis />
